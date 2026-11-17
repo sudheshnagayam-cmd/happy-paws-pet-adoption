@@ -1,0 +1,96 @@
+/* RESET */
+.applogo{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  backdrop-filter: blur(10px);
+  background-color: rgb(241, 148, 148);
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+.btn {
+  background: #ff6b6b;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ff4b4b;
+}
+/* HEADER */
+.gallery-header {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.gallery-header h1 {
+  font-size: 40px;
+  color: #333;
+}
+
+.gallery-header p {
+  color: #666;
+}
+
+/* GRID */
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  padding: 40px;
+  background: #f9f9f9;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+/* IMAGE ITEM */
+.gallery-item {
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+/* HOVER ZOOM EFFECT */
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+/* FOOTER */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 6px;
+}
+.div{
+  background-image: url("https://i.pinimg.com/736x/d6/f1/43/d6f143b2a7792b94baa93000dc7d9518.jpg");
+  height: 165vh;
+  background-size: cover;
+}

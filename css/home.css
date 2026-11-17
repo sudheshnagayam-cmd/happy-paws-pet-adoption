@@ -1,0 +1,113 @@
+.applogo{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  backdrop-filter: blur(10px);
+  background-color: rgb(241, 148, 148);
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+color: white}
+.btn {
+  background: #ff6b6b;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ff4b4b;
+}
+.hero{
+  text-align: center;
+  background-image: url("https://img.freepik.com/premium-photo/cute-dog-pink-background_492154-30345.jpg?w=996");
+  background-size: cover;
+  height: 700px;
+}
+.heropage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+.hero-btn {
+  background: #f70c5e;
+  color: whitesmoke;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.hero-btn:hover {
+  background: #b83d68;
+}
+.hero-content{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+  background: #f9f9f9;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 250px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  color: #ff6b6b;
+}
+
+/* FOOTER */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 6px;
+}
+.carousel {
+    max-width: 90%;
+    margin: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    border-top: 15px;
+}
+
+.carousel-item img {
+    height: 350px;
+    object-fit: cover;
+    margin-top: 30px;
+    border-top: 15px;
+}

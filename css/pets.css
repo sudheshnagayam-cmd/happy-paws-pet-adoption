@@ -1,0 +1,121 @@
+/* RESET */
+.applogo{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  backdrop-filter: blur(10px);
+  background-color: rgb(241, 148, 148);
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: white
+}
+.btn {
+  background: #ff6b6b;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ff4b4b;
+}
+/* HEADER */
+.pets-header {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.pets-header h1 {
+  font-size: 40px;
+  color: #333;
+}
+
+.pets-header p {
+  color: #666;
+}
+.petts-table{
+background-image: url("https://tse4.mm.bing.net/th/id/OIP.V9fVRpthV-_p1t2twOdxlQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3");
+background-size: cover;
+height: 180vh;
+}
+
+/* PETS GRID */
+.pets-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 40px;
+  gap: 25px;
+}
+
+/* CARD */
+.pet-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.pet-card:hover {
+  transform: translateY(-10px);
+}
+
+.pet-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.pet-card h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.pet-card p {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+/* BUTTON */
+.adopt-btn {
+  display: inline-block;
+  margin-bottom: 15px;
+  background: #ff6b6b;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.adopt-btn:hover {
+  background: #ff4b4b;
+}
+
+/* FOOTER */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 6px;
+}
