@@ -6,6 +6,10 @@ Happy Paws is a user-friendly pet adoption website designed to help people explo
 
 This website provides a simple platform for browsing pets, viewing their details, exploring pet galleries, and filling out adoption forms. The project aims to promote pet adoption through an attractive and easy-to-use interface.
 
+## Live Website
+
+[Visit Happy Paws Website](https://sudheshnagayam-cmd.github.io/happy-paws-pet-adoption/)
+
 ## Technologies Used
 
 - HTML5
