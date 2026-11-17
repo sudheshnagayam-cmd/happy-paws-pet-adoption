@@ -31,8 +31,7 @@ This website provides a simple platform for browsing pets, viewing their details
 ### Available Pets
 ![Pets](screenshots/pets.png)
 
-### Adoption Form
-![Adoption Form](screenshots/adoption.png)
+
 
 ### Pet Gallery
 ![Gallery](screenshots/gallery.png)
